@@ -1,9 +1,8 @@
 # Hi there, I'm Swarnim 👋
 
-I'm a passionate Frontend Developer with over 5 years of experience in web development.
+I'm a passionate Software Developer with over 5 years of experience in WebApp Development.
 For Frontend, I love working with React, Next.js, and TypeScript.
-For Backend, I love working with Node.js, Express, and MongoDB. (Also working with Python and DjangoRestFramework)
-Being a CS Engineer, I am also a big fan of IOT, Robotics, and Machine Learning.
+For Backend, I love working with Node.js, Express, and MongoDB. 
 
 ## 🛠 Technologies & Tools
 
@@ -55,32 +54,6 @@ A web-based tool for managing student information, admissions, finance and other
 - [Twitter](https://twitter.com/swarnim55)
 - [Email](mailto:swarnim55@gmail.com)
 
-## 📈 Language Ratio Across Repositories
-
-```markdown
-```python
-import requests
-from collections import Counter
-
-username = 'yourusername'
-response = requests.get(f'https://api.github.com/users/{username}/repos')
-repos = response.json()
-
-languages = Counter()
-
-for repo in repos:
-    lang_response = requests.get(repo['languages_url'])
-    repo_languages = lang_response.json()
-    languages.update(repo_languages)
-
-total_bytes = sum(languages.values())
-
-language_ratios = {lang: (bytes/total_bytes) * 100 for lang, bytes in languages.items()}
-
-for lang, ratio in language_ratios.items():
-    print(f'{lang}: {ratio:.2f}%')
-
-## 📊 Average Language Ratio
 
 
 
